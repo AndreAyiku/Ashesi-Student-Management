@@ -1,4 +1,3 @@
-```markdown
 # University Students’ Records Management System
 
 This project is a comprehensive University Students’ Records Management System developed using **Visual C++** on the Microsoft Visual Studio platform. It implements a Multiple Document Interface (MDI) application to manage student, faculty, and administrative activities efficiently.
@@ -79,7 +78,7 @@ It provides role-based access to students, faculty, and administrators while ens
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AndreAyiku/university-records-system.git
+   git clone https://github.com/AndreAyiku/Ashesi-Student-Management.git
    ```
 2. Open the project in Microsoft Visual Studio.
 3. Configure the database connection settings.
