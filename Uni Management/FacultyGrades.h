@@ -47,11 +47,13 @@ namespace UniManagement {
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn1;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn2;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn3;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::DataGridView^ dgvGrades;
 
 #pragma region Windows Form Designer generated code
 		   void InitializeComponent(void)
 		   {
+			   System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(FacultyGrades::typeid));
 			   this->sidebarPanel = (gcnew System::Windows::Forms::Panel());
 			   this->btnDashboard = (gcnew System::Windows::Forms::Button());
 			   this->btnSaveGrades = (gcnew System::Windows::Forms::Button());
@@ -60,13 +62,16 @@ namespace UniManagement {
 			   this->dataGridViewTextBoxColumn1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			   this->dataGridViewTextBoxColumn2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			   this->dataGridViewTextBoxColumn3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			   this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			   this->sidebarPanel->SuspendLayout();
 			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dgvGrades))->BeginInit();
+			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			   this->SuspendLayout();
 			   // 
 			   // sidebarPanel
 			   // 
-			   this->sidebarPanel->BackColor = System::Drawing::Color::Firebrick;
+			   this->sidebarPanel->BackColor = System::Drawing::Color::Maroon;
+			   this->sidebarPanel->Controls->Add(this->pictureBox1);
 			   this->sidebarPanel->Controls->Add(this->btnDashboard);
 			   this->sidebarPanel->Dock = System::Windows::Forms::DockStyle::Left;
 			   this->sidebarPanel->Location = System::Drawing::Point(0, 0);
@@ -78,27 +83,27 @@ namespace UniManagement {
 			   // btnDashboard
 			   // 
 			   this->btnDashboard->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			   this->btnDashboard->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10, System::Drawing::FontStyle::Bold));
+			   this->btnDashboard->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.875F));
 			   this->btnDashboard->ForeColor = System::Drawing::Color::White;
-			   this->btnDashboard->Location = System::Drawing::Point(45, 62);
+			   this->btnDashboard->Location = System::Drawing::Point(13, 892);
 			   this->btnDashboard->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			   this->btnDashboard->Name = L"btnDashboard";
 			   this->btnDashboard->Size = System::Drawing::Size(210, 78);
 			   this->btnDashboard->TabIndex = 0;
-			   this->btnDashboard->Text = L"Dashboard";
+			   this->btnDashboard->Text = L"BACK";
 			   this->btnDashboard->UseVisualStyleBackColor = true;
 			   this->btnDashboard->Click += gcnew System::EventHandler(this, &FacultyGrades::btnDashboard_Click);
 			   // 
 			   // btnSaveGrades
 			   // 
-			   this->btnSaveGrades->BackColor = System::Drawing::Color::Crimson;
+			   this->btnSaveGrades->BackColor = System::Drawing::Color::Maroon;
 			   this->btnSaveGrades->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			   this->btnSaveGrades->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
 			   this->btnSaveGrades->ForeColor = System::Drawing::Color::White;
-			   this->btnSaveGrades->Location = System::Drawing::Point(360, 900);
+			   this->btnSaveGrades->Location = System::Drawing::Point(1221, 900);
 			   this->btnSaveGrades->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			   this->btnSaveGrades->Name = L"btnSaveGrades";
-			   this->btnSaveGrades->Size = System::Drawing::Size(270, 70);
+			   this->btnSaveGrades->Size = System::Drawing::Size(176, 70);
 			   this->btnSaveGrades->TabIndex = 1;
 			   this->btnSaveGrades->Text = L"Save Grades";
 			   this->btnSaveGrades->UseVisualStyleBackColor = false;
@@ -151,6 +156,16 @@ namespace UniManagement {
 			   this->dataGridViewTextBoxColumn3->Name = L"dataGridViewTextBoxColumn3";
 			   this->dataGridViewTextBoxColumn3->Width = 200;
 			   // 
+			   // pictureBox1
+			   // 
+			   this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			   this->pictureBox1->Location = System::Drawing::Point(30, 12);
+			   this->pictureBox1->Name = L"pictureBox1";
+			   this->pictureBox1->Size = System::Drawing::Size(228, 205);
+			   this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			   this->pictureBox1->TabIndex = 1;
+			   this->pictureBox1->TabStop = false;
+			   // 
 			   // FacultyGrades
 			   // 
 			   this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
@@ -165,6 +180,7 @@ namespace UniManagement {
 			   this->Text = L"Faculty Grades";
 			   this->sidebarPanel->ResumeLayout(false);
 			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dgvGrades))->EndInit();
+			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			   this->ResumeLayout(false);
 
 		   }
