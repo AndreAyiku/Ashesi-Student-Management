@@ -193,7 +193,7 @@ namespace UniManagement {
 			   this->btnVerifyEnrollment->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			   this->btnVerifyEnrollment->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10, System::Drawing::FontStyle::Bold));
 			   this->btnVerifyEnrollment->ForeColor = System::Drawing::Color::White;
-			   this->btnVerifyEnrollment->Location = System::Drawing::Point(307, 891);
+			   this->btnVerifyEnrollment->Location = System::Drawing::Point(250, 891);
 			   this->btnVerifyEnrollment->Name = L"btnVerifyEnrollment";
 			   this->btnVerifyEnrollment->Size = System::Drawing::Size(266, 59);
 			   this->btnVerifyEnrollment->TabIndex = 8;
@@ -225,9 +225,9 @@ namespace UniManagement {
 			   // pictureBox1
 			   // 
 			   this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			   this->pictureBox1->Location = System::Drawing::Point(3, 12);
+			   this->pictureBox1->Location = System::Drawing::Point(0, 0);
 			   this->pictureBox1->Name = L"pictureBox1";
-			   this->pictureBox1->Size = System::Drawing::Size(231, 214);
+			   this->pictureBox1->Size = System::Drawing::Size(247, 226);
 			   this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			   this->pictureBox1->TabIndex = 1;
 			   this->pictureBox1->TabStop = false;
