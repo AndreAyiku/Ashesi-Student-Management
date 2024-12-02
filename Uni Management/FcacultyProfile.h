@@ -47,11 +47,13 @@ namespace UniManagement {
 	private: System::Windows::Forms::TextBox^ txtLastName;
 	private: System::Windows::Forms::Label^ lblDepartment;
 	private: System::Windows::Forms::TextBox^ txtDepartment;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::Button^ btnSaveProfile;
 
 #pragma region Windows Form Designer generated code
 		   void InitializeComponent(void)
 		   {
+			   System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(FcacultyProfile::typeid));
 			   this->sidebarPanel = (gcnew System::Windows::Forms::Panel());
 			   this->btnDashboard = (gcnew System::Windows::Forms::Button());
 			   this->lblFirstName = (gcnew System::Windows::Forms::Label());
@@ -61,32 +63,36 @@ namespace UniManagement {
 			   this->lblDepartment = (gcnew System::Windows::Forms::Label());
 			   this->txtDepartment = (gcnew System::Windows::Forms::TextBox());
 			   this->btnSaveProfile = (gcnew System::Windows::Forms::Button());
+			   this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			   this->sidebarPanel->SuspendLayout();
+			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			   this->SuspendLayout();
 			   // 
 			   // sidebarPanel
 			   // 
-			   this->sidebarPanel->BackColor = System::Drawing::Color::Firebrick;
+			   this->sidebarPanel->BackColor = System::Drawing::Color::Maroon;
+			   this->sidebarPanel->Controls->Add(this->pictureBox1);
 			   this->sidebarPanel->Controls->Add(this->btnDashboard);
 			   this->sidebarPanel->Dock = System::Windows::Forms::DockStyle::Left;
 			   this->sidebarPanel->Location = System::Drawing::Point(0, 0);
 			   this->sidebarPanel->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			   this->sidebarPanel->Name = L"sidebarPanel";
-			   this->sidebarPanel->Size = System::Drawing::Size(300, 957);
+			   this->sidebarPanel->Size = System::Drawing::Size(352, 957);
 			   this->sidebarPanel->TabIndex = 0;
 			   // 
 			   // btnDashboard
 			   // 
+			   this->btnDashboard->BackColor = System::Drawing::Color::Maroon;
 			   this->btnDashboard->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			   this->btnDashboard->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10, System::Drawing::FontStyle::Bold));
+			   this->btnDashboard->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.875F, System::Drawing::FontStyle::Bold));
 			   this->btnDashboard->ForeColor = System::Drawing::Color::White;
-			   this->btnDashboard->Location = System::Drawing::Point(45, 62);
+			   this->btnDashboard->Location = System::Drawing::Point(34, 855);
 			   this->btnDashboard->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			   this->btnDashboard->Name = L"btnDashboard";
 			   this->btnDashboard->Size = System::Drawing::Size(210, 78);
 			   this->btnDashboard->TabIndex = 0;
-			   this->btnDashboard->Text = L"Dashboard";
-			   this->btnDashboard->UseVisualStyleBackColor = true;
+			   this->btnDashboard->Text = L"BACK";
+			   this->btnDashboard->UseVisualStyleBackColor = false;
 			   this->btnDashboard->Click += gcnew System::EventHandler(this, &FcacultyProfile::btnDashboard_Click);
 			   // 
 			   // lblFirstName
@@ -145,7 +151,7 @@ namespace UniManagement {
 			   // 
 			   // btnSaveProfile
 			   // 
-			   this->btnSaveProfile->BackColor = System::Drawing::Color::Crimson;
+			   this->btnSaveProfile->BackColor = System::Drawing::Color::Maroon;
 			   this->btnSaveProfile->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			   this->btnSaveProfile->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Bold));
 			   this->btnSaveProfile->ForeColor = System::Drawing::Color::White;
@@ -157,6 +163,16 @@ namespace UniManagement {
 			   this->btnSaveProfile->Text = L"Save Profile";
 			   this->btnSaveProfile->UseVisualStyleBackColor = false;
 			   this->btnSaveProfile->Click += gcnew System::EventHandler(this, &FcacultyProfile::btnSaveProfile_Click);
+			   // 
+			   // pictureBox1
+			   // 
+			   this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			   this->pictureBox1->Location = System::Drawing::Point(53, 34);
+			   this->pictureBox1->Name = L"pictureBox1";
+			   this->pictureBox1->Size = System::Drawing::Size(224, 202);
+			   this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			   this->pictureBox1->TabIndex = 1;
+			   this->pictureBox1->TabStop = false;
 			   // 
 			   // FcacultyProfile
 			   // 
@@ -175,6 +191,7 @@ namespace UniManagement {
 			   this->Name = L"FcacultyProfile";
 			   this->Text = L"Faculty Profile";
 			   this->sidebarPanel->ResumeLayout(false);
+			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			   this->ResumeLayout(false);
 			   this->PerformLayout();
 
