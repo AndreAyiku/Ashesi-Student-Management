@@ -172,7 +172,7 @@ namespace UniManagement {
 			   // txtMaterialName
 			   // 
 			   this->txtMaterialName->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10));
-			   this->txtMaterialName->Location = System::Drawing::Point(305, 440);
+			   this->txtMaterialName->Location = System::Drawing::Point(250, 832);
 			   this->txtMaterialName->Name = L"txtMaterialName";
 			   this->txtMaterialName->Size = System::Drawing::Size(300, 43);
 			   this->txtMaterialName->TabIndex = 7;
@@ -180,8 +180,9 @@ namespace UniManagement {
 			   // lblMaterialName
 			   // 
 			   this->lblMaterialName->AutoSize = true;
+			   this->lblMaterialName->BackColor = System::Drawing::Color::White;
 			   this->lblMaterialName->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10));
-			   this->lblMaterialName->Location = System::Drawing::Point(300, 400);
+			   this->lblMaterialName->Location = System::Drawing::Point(254, 792);
 			   this->lblMaterialName->Name = L"lblMaterialName";
 			   this->lblMaterialName->Size = System::Drawing::Size(199, 37);
 			   this->lblMaterialName->TabIndex = 6;
