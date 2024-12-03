@@ -1,6 +1,0 @@
-C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\Debug\Uni Management.vcxproj.AssemblyReference.cache
-C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\Debug\UniManagement.Faculty Registration.resources
-C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\Debug\UniManagement.LoginForm.resources
-C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\Debug\UniManagement.User Registration.resources
-C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\Debug\UniManagement.Student Registraion.resources
-C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\Debug\Uni Management.vcxproj.GenerateResource.cache
