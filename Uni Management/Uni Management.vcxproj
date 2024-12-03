@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{B5BB02E9-8DD2-413C-AF66-FB6F7215A040}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>UniManagement</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Downloads\mysql-for-visualstudio-2.0.5-noinstall\v461\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdminDashboard.cpp" />
+    <ClCompile Include="CourseAdding.cpp" />
+    <ClCompile Include="CourseDelete.cpp" />
+    <ClCompile Include="CourseManage.cpp" />
+    <ClCompile Include="CourseRegistration.cpp" />
+    <ClCompile Include="CourseUpdate.cpp" />
+    <ClCompile Include="EnterGrades.cpp" />
+    <ClCompile Include="Faculty Registration.cpp" />
+    <ClCompile Include="FacultyAccess.cpp" />
+    <ClCompile Include="FacultyCourse.cpp" />
+    <ClCompile Include="facultyDelete.cpp" />
+    <ClCompile Include="FacultyGrades.cpp" />
+    <ClCompile Include="FacultyManage.cpp" />
+    <ClCompile Include="facultyRegister.cpp" />
+    <ClCompile Include="facultyUpdate.cpp" />
+    <ClCompile Include="FacutlyProfile.cpp" />
+    <ClCompile Include="feePayment.cpp" />
+    <ClCompile Include="Finacial.cpp" />
+    <ClCompile Include="InsertDetails.cpp" />
+    <ClCompile Include="LoginForm.cpp" />
+    <ClCompile Include="ManageStudents.cpp" />
+    <ClCompile Include="MDIForm.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Student Registraion.cpp" />
+    <ClCompile Include="StudentDashboard.cpp" />
+    <ClCompile Include="StudentDelete.cpp" />
+    <ClCompile Include="StudentProfile.cpp" />
+    <ClCompile Include="StudentUpdate.cpp" />
+    <ClCompile Include="Transcript.cpp" />
+    <ClCompile Include="UpdateDetails.cpp" />
+    <ClCompile Include="Upload.cpp" />
+    <ClCompile Include="ViewGrades.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdminDashboard.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CourseAdding.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CourseDelete.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CourseManage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CourseRegistration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CourseUpdate.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EnterGrades.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FacultyAccess.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FacultyCourse.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FacultyDashboard.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="facultyDelete.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FacultyGrades.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FacultyManage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="facultyRegister.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="facultyUpdate.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FacutlyProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="feePayment.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Finacial.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InsertDetails.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LoginForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentDelete.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentManage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MDIForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentDashboard.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentUpdate.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Transcript.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateDetails.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Upload.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="User Registration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentRegister.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="User.h" />
+    <ClInclude Include="ViewGrades.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseAdding.resx">
+      <DependentUpon>CourseAdding.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseDelete.resx">
+      <DependentUpon>CourseDelete.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseManage.resx">
+      <DependentUpon>CourseManage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseRegistration.resx">
+      <DependentUpon>CourseRegistration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseUpdate.resx">
+      <DependentUpon>CourseUpdate.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterGrades.resx">
+      <DependentUpon>EnterGrades.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyAccess.resx">
+      <DependentUpon>FacultyAccess.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyCourse.resx">
+      <DependentUpon>FacultyCourse.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyDashboard.resx">
+      <DependentUpon>FacultyDashboard.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facultyDelete.resx">
+      <DependentUpon>facultyDelete.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyGrades.resx">
+      <DependentUpon>FacultyGrades.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyManage.resx">
+      <DependentUpon>FacultyManage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facultyRegister.resx">
+      <DependentUpon>facultyRegister.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facultyUpdate.resx">
+      <DependentUpon>facultyUpdate.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacutlyProfile.resx">
+      <DependentUpon>FacutlyProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feePayment.resx">
+      <DependentUpon>feePayment.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finacial.resx">
+      <DependentUpon>Finacial.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertDetails.resx">
+      <DependentUpon>InsertDetails.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDelete.resx">
+      <DependentUpon>StudentDelete.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManage.resx">
+      <DependentUpon>StudentManage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm.resx">
+      <DependentUpon>MDIForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDashboard.resx">
+      <DependentUpon>StudentDashboard.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentProfile.resx">
+      <DependentUpon>StudentProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentUpdate.resx">
+      <DependentUpon>StudentUpdate.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transcript.resx">
+      <DependentUpon>Transcript.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDetails.resx">
+      <DependentUpon>UpdateDetails.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upload.resx">
+      <DependentUpon>Upload.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Registration.resx">
+      <DependentUpon>User Registration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentRegister.resx">
+      <DependentUpon>StudentRegister.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewGrades.resx">
+      <DependentUpon>ViewGrades.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
