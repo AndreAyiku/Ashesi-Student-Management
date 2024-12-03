@@ -1,0 +1,8 @@
+﻿  LoginForm.cpp
+  MDIForm.cpp
+  Program.cpp
+  StudentDashboard.cpp
+  Transcript.cpp
+  Generating Code...
+  AdminDashboard.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Uni Management.vcxproj -> C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\x64\Debug\Uni Management.exe

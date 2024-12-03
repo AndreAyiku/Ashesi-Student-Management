@@ -1,0 +1,42 @@
+C:\Users\hp\source\repos\Uni Management\x64\Debug\mysql.data.dll
+C:\Users\hp\source\repos\Uni Management\Uni Management\x64\Debug\Uni Management.vcxproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Uni Management\Uni Management\x64\Debug\UniManagement.Faculty Registration.resources
+C:\Users\hp\source\repos\Uni Management\Uni Management\x64\Debug\UniManagement.User Registration.resources
+C:\Users\hp\source\repos\Uni Management\Uni Management\x64\Debug\UniManagement.Student Registraion.resources
+C:\Users\hp\source\repos\Uni Management\Uni Management\x64\Debug\Uni Management.vcxproj.GenerateResource.cache
+C:\Users\hp\source\repos\Uni Management\Uni Management\x64\Debug\Uni Mana.1197EA5B.Up2Date
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\Uni Management.vcxproj.AssemblyReference.cache
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.LoginForm.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.User Registration.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\Uni Management.vcxproj.GenerateResource.cache
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\Uni Mana.1197EA5B.Up2Date
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.MDIForm.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.adminDashboard.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.FacultyDashboard.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.StudentDashboard.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.StudentManage.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.CourseManage.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.FacultyManage.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.StudentRegister.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.StudentDelete.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.StudentUpdate.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.facultyDelete.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.facultyRegister.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.facultyUpdate.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.CourseAdding.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.CourseDelete.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.CourseUpdate.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.Finacial.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.InsertDetails.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.UpdateDetails.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.FacultyAccess.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.FacultyCourse.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.FacultyGrades.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.FacutlyProfile.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.Upload.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.EnterGrades.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.ViewGrades.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.feePayment.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.StudentProfile.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.CourseRegistration.resources
+C:\Users\hp\source\repos\AndreAyiku\Ashesi-Student-Management\Uni Management\Uni Management\x64\Debug\UniManagement.Transcript.resources
